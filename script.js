@@ -21,6 +21,7 @@ const getSum = () => {
 
 	totalCell.textContent = total;
 	labelCell.textContent = 'Total Price: ';
+	newRow.id = 'ans';
 
 	newRow.append(labelCell,totalCell);
 	table.appendChild(newRow)
